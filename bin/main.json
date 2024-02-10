@@ -1,0 +1,50 @@
+{
+  "module": {
+    "veiculos": {
+      "entity": {
+        "carEsportivo": {
+          "options": {
+            "createInputModel": false,
+            "createMappers": true,
+            "createAdapter": true,
+            "createModel": true,
+            "create": false
+          },
+          "cor": "String",
+          "arCondicionado": "String?",
+          "pneus": "Pneu*",
+          "bancos": "List<String>",
+          "valor": "double",
+          "portas": "List<String>?"
+        },
+        "car": {
+          "options": {
+            "createInputModel": false,
+            "createMappers": true,
+            "createAdapter": true,
+            "createModel": true,
+            "create": false
+          },
+          "cor": "String",
+          "arCondicionado": "String?",
+          "pneus": "Pneu*",
+          "bancos": "List<String>",
+          "valor": "double",
+          "portas": "List<String>?"
+        },
+        "pneu": {
+          "options": {
+            "createInputModel": false,
+            "createMappers": true,
+            "createAdapter": true,
+            "createModel": true,
+            "create": false
+          },
+          "marca": "String",
+          "cor": "String",
+          "valor": "double"
+        }
+      }
+    }
+  }
+}
